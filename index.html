@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Modeling Branches for Active Manipulation using Iterative Parameter Estimation">
+  <meta name="keywords" content="Robotics, Agriculture, Manipulation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modeling Branches for Active Manipulation using Iterative Parameter Estimation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🌳</text></svg>">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Modeling Branches for Active Manipulation using Iterative Parameter
+              Estimation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=tnevT4QAAAAJ&hl=en">Madhav Rijal</a>,</span>
+              <span class="author-block">
+                <a href="https://rashik.info.np/">Rashik Shrestha</a>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=xGbou2kAAAAJ&hl=en">Trevor Smith</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://yugu.faculty.wvu.edu/">Yu Gu</a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Interactive Robotics Laboratory, West Virginia University</span>
+            </div>
+
+            <br>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><b>🎉 IROS 2026 Oral 🎉</b></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2606.19314" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- Arxiv Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2606.19314" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=d6HE7uhxKaI"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span> -->
+                <!-- Poster Link. -->
+                <!-- <span class="link-block">
+                  <a href="./static/images/flope_poster.png" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-image"></i>
+                    </span>
+                    <span>Poster</span>
+                  </a>
+                </span> -->
+                <!-- Code Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/wvu-irl/Branch_Manipulation" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/wvu-irl/flope/releases/tag/release1"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa fa-database"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span> -->
+                <!-- LinkedIn Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://www.linkedin.com/posts/wvuirl_estimating-the-flower-orientations-has-been-activity-7307771533341470721-CeJ7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACnjKuQBG9g-a7j4Z4oITftILjq4J9bkZn8"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                    <span>LinkedIn</span>
+                  </a>
+                </span> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/teaser.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>This study presents a method for modeling diverse plant branches by iteratively estimating material
+              parameters to support delicate branch manipulation. Branch manipulation is necessary in agricultural
+              robotics for plant repositioning, stabilizing, and clearing visual obstructions in dense foliage. The
+              proposed method builds a tetrahedral branch model from point-cloud data and simulates its behavior using
+              the finite element method. Using real observed deformation data, it iteratively estimates branch
+              parameters and then computes an optimal path with a deformation-aware motion planner to move and stabilize
+              branches within another robot’s field of view. Across 30 trials on branches with varying geometries and
+              material properties, the proposed method reduced the deformation energy by 35.69% while increasing the
+              path length by 8.10% on average.</p>
+          </div>
+          <div class="content">
+            <img src="./static/images/teaser.png" alt="Implementation Pipeline">
+            Fig: Overview of the proposed pipeline for active branch manipulation. An initial plant point cloud is
+            reconstructed from perception and converted into a simulation-ready tetrahedral volumetric mesh. This
+            deformable model is then used to plan manipulation trajectories that reposition the target such as flowers,
+            into another robot’s reachable workspace or field of view.
+          </div>
+        </div>
+      </div>
+
+      <!-- Paper video. -->
+      <!-- <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/d6HE7uhxKaI?rel=0&amp;showinfo=0" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{rijal2026modeling,
+  title={Modeling Branches for Active Manipulation using Iterative Parameter Estimation},
+  author={Rijal, Madhav and Shrestha, Rashik and Smith, Trevor and Gu, Yu},
+  journal={arXiv preprint arXiv:2606.19314},
+  year={2026}
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website has been adapted from <a rel="license"
+                href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
